@@ -7,4 +7,4 @@ its 2am ill put something here later in the morning
 
 hhhhhh
 
-<button onclick="http://www.google.com">Button test (goes to google)</button>
+<a href="https://www.google.com/" class="btn btn-primary">Button test!</a>
