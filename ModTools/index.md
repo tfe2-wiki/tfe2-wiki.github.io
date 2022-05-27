@@ -1,5 +1,6 @@
 ---
 title: ModTools
+has_children: true
 ---
 
 # ModTools
