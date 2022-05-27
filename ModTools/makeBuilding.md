@@ -1,3 +1,8 @@
+---
+title: makeBuilding
+parent: ModTools
+---
+
 # ModTools.makeBuilding(className, fields, spriteName, ?saveFunc, ?loadFunc, ?superClass)
 
 Define a new building.
