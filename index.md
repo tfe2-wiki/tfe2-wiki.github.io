@@ -1,3 +1,8 @@
+---
+title: Home
+nav_order: 1
+---
+
 # The Final Earth 2 Modding
 The official modding guide can be found [here](https://florianvanstrien.nl/TheFinalEarth2/modding.php)
 
