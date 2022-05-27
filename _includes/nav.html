@@ -1,6 +1,5 @@
 <ul class="nav-list">
-      <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/_new">Add new</a></span>
-    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: ''}}/_edit">Edit</a></span>
+  <a class="btn" href="{{ site.github.repository_url }}/edit/main{{ page.url }}.md">Edit</a>
   {%- assign titled_pages = include.pages
         | where_exp:"item", "item.title != nil" -%}
 
