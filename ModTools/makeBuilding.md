@@ -5,7 +5,7 @@ parent: ModTools
 
 # ModTools.makeBuilding(className, fields, spriteName, ?saveFunc, ?loadFunc, ?superClass)
 
-Define a new building.
+YOu use this to define a new building.
 
 - className (string) - The name of the building class. Should be equal to a className in buildinginfo.json.
 - fields (object or function) - Fields and field overwrites to add this building. This will define its behaviour. In case you need the parent class for calling super functions, pass a function that takes the parent class as argument and returns the fields. Some common fields:
