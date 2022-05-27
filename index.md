@@ -6,3 +6,5 @@ This is the unofficial guide for modding The Final Earth 2 (TFE2). Feel free to 
 its 2am ill put something here later in the morning
 
 hhhhhh
+
+<button onclick="http://www.google.com">Button test (goes to google)</button>
