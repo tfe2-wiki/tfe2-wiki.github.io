@@ -1,5 +1,5 @@
 <ul class="nav-list">
-  <a class="btn" href="{{ site.github.repository_url }}/edit/main{{ page.url }}.md">Edit</a>
+  <a class="btn" href="{{ site.github.repository_url }}/edit/main{{ page.url | replace:'.html','.md' }}.md">Edit</a>
   {%- assign titled_pages = include.pages
         | where_exp:"item", "item.title != nil" -%}
 
