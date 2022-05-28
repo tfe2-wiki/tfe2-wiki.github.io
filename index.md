@@ -1,6 +1,7 @@
 ---
 title: Home
 nav_order: 1
+locked: true
 ---
 
 # Modding The Final Earth 2
