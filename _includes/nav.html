@@ -1,4 +1,6 @@
-<a class="btn" href="{{ site.github.repository_url }}/edit/main/{{ page.path }}">Edit</a>
+{%- if site.locked != true -%}
+  <a class="btn" href="{{ site.github.repository_url }}/edit/main/{{ page.path }}">Edit</a>
+{%- endif -%}
 <ul class="nav-list">
   {%- assign titled_pages = include.pages
         | where_exp:"item", "item.title != nil" -%}
