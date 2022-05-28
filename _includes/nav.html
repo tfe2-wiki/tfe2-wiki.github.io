@@ -1,7 +1,7 @@
-<a class="btn" href="{{ site.github.repository_url }}/new/main/{{ page.path }}">New</a>
+<a class="btn" href="{{ site.github.repository_url }}/new/main/">New</a>
 {%- if site.locked != true -%}
   <a class="btn" href="{{ site.github.repository_url }}/edit/main/{{ page.path }}">Edit</a>
-  <a class="btn" href="{{ site.github.repository_url }}/delete/main/{{ page.path }}">Delete</a>
+  <a class="btn red-btn" href="{{ site.github.repository_url }}/delete/main/{{ page.path }}">Delete</a>
 {%- endif -%}
 <ul class="nav-list">
   {%- assign titled_pages = include.pages
