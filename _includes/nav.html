@@ -1,6 +1,8 @@
 {%- if page.path == "index.md" -%}
   <a target="_blank" class="btn" href="{{ site.github.repository_url }}/new/main/">New</a>
   <a target="_blank" class="btn" href="{{ site.github.repository_url }}/edit/main/{{ page.path }}">Edit</a>
+{%- elseif page.path == "404.md" -%}
+  <a target="_blank" class="btn" href="{{ site.github.repository_url }}/new/main/">New</a>
 {%- else -%}
   <a target="_blank" class="btn" href="{{ site.github.repository_url }}/new/main/">New</a>
   <a target="_blank" class="btn" href="{{ site.github.repository_url }}/edit/main/{{ page.path }}">Edit</a>
