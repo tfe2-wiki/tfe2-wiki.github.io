@@ -3,9 +3,16 @@ title: Building Name
 parent: Buildings
 ---
 # Building Name
-| Wood | Stone | Happiness |
-|:----|:----|:----|
-| 4 | 2 | 0 |
+
+Cost:
+- 4 Wood
+- 4 Stone
+
+Capacity: 4 <br>
+Quality: 50 <br>
+Research Cost: None <br>
+Requirements: None
+
 > *"building description in-game"*
 
 manual description, including links to upgrade pages, how to unlock, etc
