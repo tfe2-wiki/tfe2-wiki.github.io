@@ -4,7 +4,7 @@ parent: Buildings
 ---
 # Building Name
 | Wood | Stone | Happiness |
-| --- | --- | --- |
+|:----|:----|:----|
 | 4 | 2 | 0 |
 > *"building description in-game"*
 
