@@ -4,14 +4,33 @@ parent: Buildings
 ---
 # Building Name
 
-Cost:
-- 4 Wood
-- 4 Stone
-
-Capacity: 4 <br>
-Quality: 50 <br>
-Research Cost: None <br>
-Requirements: None
+<table>
+<thead>
+  <tr>
+    <th>Cost</th>
+    <th>Capacity</th>
+    <th>Quality</th>
+    <th>Research Cost</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      - 4 Wood
+      - 4 Stone
+    </td>
+    <td>
+      4 people
+    </td>
+    <td>
+      50
+    </td>
+    <td>
+      None
+    </td>
+  </tr>
+</tbody>
+</table>
 
 > *"building description in-game"*
 
