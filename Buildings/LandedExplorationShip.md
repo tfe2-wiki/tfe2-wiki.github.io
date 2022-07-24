@@ -4,35 +4,7 @@ parent: Buildings
 ---
 # Landed Exploration Ship
 
-<table>
-<thead>
-	<tr>
-	<th>Cost</th>
-	<th>Capacity</th>
-	
-	<th>Research Cost</th>
-	<th>Category</th>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-	<td>
-		5 Wood<br>10 Stone<br>5 Machine Parts
-	</td>
-	<td>
-		3 Residents
-	</td>
-	
-	<td>
-		None
-	</td>
-	<td>
-		Houses
-	</td>
-	</tr>
-</tbody>
-</table>
-
-> *"Living in this exploration ship may not be very comfortable, but it's certainly very adventurous! Can only be placed on the ground or on a rooftop."*
+[//]: # (Pre-generated content)
+<table><thead><tr><th>Stats</th><th>Image</th></tr></thead><tbody><tr><td><dl><dt>Cost</dt><dd>5 Wood<br>10 Stone<br>5 Machine Parts</dd><dt>Capacity</dt><dd>3 Residents</dd><dt>Research Cost</dt><dd>None</dd><dt>Category</dt><dd>Houses</dd></dl></td><td><style>.building-image {width: 200px;height: 200px;overflow: hidden;position: relative;}.building-image img {image-rendering: pixelated;object-fit: none;transform: scale(10);transform-origin: left top;position: absolute;left: 0;top: 0;}</style><div class="building-image"><img style="object-position: -680px -955px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="Landed Exploration Ship Back"><img style="object-position: -658px -955px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="Landed Exploration Ship"></div></td></tr></tbody></table><blockquote><i>"Living in this exploration ship may not be very comfortable, but it's certainly very adventurous! Can only be placed on the ground or on a rooftop."</i></blockquote>
 
 The page for Landed Exploration Ship is in need of content. Please help by contributing to the wiki!

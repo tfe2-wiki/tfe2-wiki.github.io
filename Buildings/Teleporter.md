@@ -4,35 +4,7 @@ parent: Buildings
 ---
 # Teleporter
 
-<table>
-<thead>
-	<tr>
-	<th>Cost</th>
-	<th>Capacity</th>
-	
-	<th>Research Cost</th>
-	<th>Category</th>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-	<td>
-		4 Wood<br>100 Stone<br>150 Machine Parts<br>15 Computer Chips
-	</td>
-	<td>
-		
-	</td>
-	
-	<td>
-		5000
-	</td>
-	<td>
-		Transportation
-	</td>
-	</tr>
-</tbody>
-</table>
-
-> *"The very fastest form of transportation. Allows citizens to instantly go to other teleporters."*
+[//]: # (Pre-generated content)
+<table><thead><tr><th>Stats</th><th>Image</th></tr></thead><tbody><tr><td><dl><dt>Cost</dt><dd>4 Wood<br>100 Stone<br>150 Machine Parts<br>15 Computer Chips</dd><dt>Capacity</dt><dd></dd><dt>Research Cost</dt><dd>5000</dd><dt>Category</dt><dd>Transportation</dd></dl></td><td><style>.building-image {width: 200px;height: 200px;overflow: hidden;position: relative;}.building-image img {image-rendering: pixelated;object-fit: none;transform: scale(10);transform-origin: left top;position: absolute;left: 0;top: 0;}</style><div class="building-image"><img style="object-position: -46px -1042px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="Teleporter Back"><img style="object-position: -24px -1042px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="Teleporter"></div></td></tr></tbody></table><blockquote><i>"The very fastest form of transportation. Allows citizens to instantly go to other teleporters."</i></blockquote>
 
 The page for Teleporter is in need of content. Please help by contributing to the wiki!

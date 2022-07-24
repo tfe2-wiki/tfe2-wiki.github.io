@@ -4,35 +4,7 @@ parent: Buildings
 ---
 # Machine Parts Factory
 
-<table>
-<thead>
-	<tr>
-	<th>Cost</th>
-	<th>Capacity</th>
-	
-	<th>Research Cost</th>
-	<th>Category</th>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-	<td>
-		10 Wood<br>35 Stone
-	</td>
-	<td>
-		2 Jobs
-	</td>
-	
-	<td>
-		25
-	</td>
-	<td>
-		Production
-	</td>
-	</tr>
-</tbody>
-</table>
-
-> *"Produces machine parts from stone. Three stone is needed to make one machine part."*
+[//]: # (Pre-generated content)
+<table><thead><tr><th>Stats</th><th>Image</th></tr></thead><tbody><tr><td><dl><dt>Cost</dt><dd>10 Wood<br>35 Stone</dd><dt>Capacity</dt><dd>2 Jobs</dd><dt>Research Cost</dt><dd>25</dd><dt>Category</dt><dd>Production</dd></dl></td><td><style>.building-image {width: 200px;height: 200px;overflow: hidden;position: relative;}.building-image img {image-rendering: pixelated;object-fit: none;transform: scale(10);transform-origin: left top;position: absolute;left: 0;top: 0;}</style><div class="building-image"><img style="object-position: -206px -955px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="Machine Parts Factory Back"><img style="object-position: -184px -955px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="Machine Parts Factory"></div></td></tr></tbody></table><blockquote><i>"Produces machine parts from stone. Three stone is needed to make one machine part."</i></blockquote>
 
 The page for Machine Parts Factory is in need of content. Please help by contributing to the wiki!

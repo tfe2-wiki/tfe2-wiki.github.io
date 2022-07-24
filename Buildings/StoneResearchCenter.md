@@ -4,35 +4,7 @@ parent: Buildings
 ---
 # Mining Research Center
 
-<table>
-<thead>
-	<tr>
-	<th>Cost</th>
-	<th>Capacity</th>
-	
-	<th>Research Cost</th>
-	<th>Category</th>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-	<td>
-		500 Wood<br>30 Machine Parts<br>10 Refined Metal
-	</td>
-	<td>
-		4 Jobs
-	</td>
-	
-	<td>
-		750
-	</td>
-	<td>
-		Unique Buildings
-	</td>
-	</tr>
-</tbody>
-</table>
-
-> *"Boosts stone production based on your knowledge production and the number of workers."*
+[//]: # (Pre-generated content)
+<table><thead><tr><th>Stats</th><th>Image</th></tr></thead><tbody><tr><td><dl><dt>Cost</dt><dd>500 Wood<br>30 Machine Parts<br>10 Refined Metal</dd><dt>Capacity</dt><dd>4 Jobs</dd><dt>Research Cost</dt><dd>750</dd><dt>Category</dt><dd>Unique Buildings</dd></dl></td><td><style>.building-image {width: 200px;height: 200px;overflow: hidden;position: relative;}.building-image img {image-rendering: pixelated;object-fit: none;transform: scale(10);transform-origin: left top;position: absolute;left: 0;top: 0;}</style><div class="building-image"><img style="object-position: -680px -955px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="Mining Research Center Back"><img style="object-position: -658px -955px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="Mining Research Center"></div></td></tr></tbody></table><blockquote><i>"Boosts stone production based on your knowledge production and the number of workers."</i></blockquote>
 
 The page for Mining Research Center is in need of content. Please help by contributing to the wiki!
