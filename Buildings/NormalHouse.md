@@ -7,31 +7,54 @@ parent: Buildings
 <table>
 <thead>
 	<tr>
-	<th>Cost</th>
-	<th>Capacity</th>
-	<th>
-		Quality
-	</th>
-	<th>Research Cost</th>
-	<th>Category</th>
+	<th>Stats</th>
+	<th>Image</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
 	<td>
-		4 Wood<br>4 Stone
+		<dl>
+			<dt>Cost</dt>
+			<dd>
+				4 Wood
+				<br>
+4 Stone
+			</dd>
+			<dt>Capacity</dt>
+			<dd>
+				4 Residents
+			</dd>
+			<dt>Quality</dt>
+			<dd>
+				50
+			</dd>
+			<dt>Research Cost</dt>
+			<dd>
+				None
+			</dd>
+			<dt>Category</dt>
+			<dd>
+				Houses
+			</dd>
+		</dl>
 	</td>
 	<td>
-		4 Residents
-	</td>
-	<td>
-		50
-	</td>
-	<td>
-		None
-	</td>
-	<td>
-		Houses
+		<style>
+			.building-image {
+				width: 200px;
+				height: 200px;
+				overflow: hidden;
+			}
+			.building-image img {
+				transform: scale(10);
+				image-rendering: pixelated;
+			}
+		</style>
+		<div class="building-image">
+			<img style="margin-left: -9480; margin-top: -8890" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="House">
+			<img style="margin-left: -9260; margin-top: -8890" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="House">
+		</div>
 	</td>
 	</tr>
 </tbody>
@@ -41,7 +64,7 @@ parent: Buildings
 
 The Basic House is the first basic building with housing for your citizens besides the Modern Rustic Home.
 
-# Strategy
+## Strategy
 
 As it is cheap and unlocked from the beginning, the Basic House is essential for the early game. However, it is better to build houses with higher happiness values if you want your citizens to be happy.
 
