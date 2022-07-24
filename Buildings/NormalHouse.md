@@ -4,68 +4,8 @@ parent: Buildings
 ---
 # House
 
-<table>
-<thead>
-	<tr>
-	<th>Stats</th>
-	<th>Image</th>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-	<td>
-		<dl>
-			<dt>Cost</dt>
-			<dd>
-				4 Wood
-				<br>
-4 Stone
-			</dd>
-			<dt>Capacity</dt>
-			<dd>
-				4 Residents
-			</dd>
-			<dt>Quality</dt>
-			<dd>
-				50
-			</dd>
-			<dt>Research Cost</dt>
-			<dd>
-				None
-			</dd>
-			<dt>Category</dt>
-			<dd>
-				Houses
-			</dd>
-		</dl>
-	</td>
-	<td>
-		<style>
-			.building-image {
-				width: 200px;
-				height: 200px;
-				overflow: hidden;
-				position: relative;
-			}
-			.building-image img {
-				image-rendering: pixelated;
-				object-fit: none;
-				transform: scale(10);
-				transform-origin: left top;
-				position: absolute;
-				left: 0;
-				top: 0;
-			}
-		</style>
-		<div class="building-image">
-			<img style="object-position: -948px -889px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="House Back">
-			<img style="object-position: -926px -889px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="House">
-		</div>
-	</td>
-	</tr>
-</tbody>
-</table>
-
+[//]: # (Pre-generated content)
+<table><thead><tr><th>Stats</th><th>Image</th></tr></thead><tbody><tr><td><dl><dt>Cost</dt><dd>4 Wood<br>4 Stone</dd><dt>Capacity</dt><dd>4 Residents</dd><dt>Quality</dt><dd>50</dd><dt>Research Cost</dt><dd>None</dd><dt>Category</dt><dd>Houses</dd></dl></td><td><style>.building-image {width: 200px;height: 200px;overflow: hidden;position: relative;}.building-image img {image-rendering: pixelated;object-fit: none;transform: scale(10);transform-origin: left top;position: absolute;left: 0;top: 0;}</style><div class="building-image"><img style="object-position: -948px -889px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="House Back"><img style="object-position: -926px -889px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="House"></div></td></tr></tbody></table>
 > *"Your citizens will certainly appreciate a roof above their heads."*
 
 The Basic House is the first basic building with housing for your citizens besides the Modern Rustic Home.
