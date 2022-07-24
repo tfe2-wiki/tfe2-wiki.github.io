@@ -4,35 +4,7 @@ parent: Buildings
 ---
 # Woodcutting Center
 
-<table>
-<thead>
-	<tr>
-	<th>Cost</th>
-	<th>Capacity</th>
-	
-	<th>Research Cost</th>
-	<th>Category</th>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-	<td>
-		4 Stone
-	</td>
-	<td>
-		4 Jobs
-	</td>
-	
-	<td>
-		None
-	</td>
-	<td>
-		Production
-	</td>
-	</tr>
-</tbody>
-</table>
-
-> *"Woodcutters retrieve their materials here, then go to the nearest forest to cut wood."*
+[//]: # (Pre-generated content)
+<table><thead><tr><th>Stats</th><th>Image</th></tr></thead><tbody><tr><td><dl><dt>Cost</dt><dd>4 Stone</dd><dt>Capacity</dt><dd>4 Jobs</dd><dt>Research Cost</dt><dd>None</dd><dt>Category</dt><dd>Production</dd></dl></td><td><style>.building-image {width: 200px;height: 200px;overflow: hidden;position: relative;}.building-image img {image-rendering: pixelated;object-fit: none;transform: scale(10);transform-origin: left top;position: absolute;left: 0;top: 0;}</style><div class="building-image"><img style="object-position: -458px -993px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="Woodcutting Center Back"><img style="object-position: -436px -993px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="Woodcutting Center"></div></td></tr></tbody></table><blockquote><i>"Woodcutters retrieve their materials here, then go to the nearest forest to cut wood."</i></blockquote>
 
 The page for Woodcutting Center is in need of content. Please help by contributing to the wiki!

@@ -4,35 +4,7 @@ parent: Buildings
 ---
 # Tree Plantation
 
-<table>
-<thead>
-	<tr>
-	<th>Cost</th>
-	<th>Capacity</th>
-	
-	<th>Research Cost</th>
-	<th>Category</th>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-	<td>
-		10 Stone
-	</td>
-	<td>
-		2 Jobs
-	</td>
-	
-	<td>
-		30
-	</td>
-	<td>
-		Production
-	</td>
-	</tr>
-</tbody>
-</table>
-
-> *"These trees are kept in an optimal environment and regrow faster than trees on the world surface. Woodcutters from a Woodcutting Center can help cut them down."*
+[//]: # (Pre-generated content)
+<table><thead><tr><th>Stats</th><th>Image</th></tr></thead><tbody><tr><td><dl><dt>Cost</dt><dd>10 Stone</dd><dt>Capacity</dt><dd>2 Jobs</dd><dt>Research Cost</dt><dd>30</dd><dt>Category</dt><dd>Production</dd></dl></td><td><style>.building-image {width: 200px;height: 200px;overflow: hidden;position: relative;}.building-image img {image-rendering: pixelated;object-fit: none;transform: scale(10);transform-origin: left top;position: absolute;left: 0;top: 0;}</style><div class="building-image"><img style="object-position: -784px -945px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="Tree Plantation Back"><img style="object-position: -762px -945px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="Tree Plantation"></div></td></tr></tbody></table><blockquote><i>"These trees are kept in an optimal environment and regrow faster than trees on the world surface. Woodcutters from a Woodcutting Center can help cut them down."</i></blockquote>
 
 The page for Tree Plantation is in need of content. Please help by contributing to the wiki!
