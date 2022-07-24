@@ -16,7 +16,7 @@ parent: Buildings
 <tbody>
   <tr>
     <td>
-      - 4 Wood
+      - 4 Wood <br>
       - 4 Stone
     </td>
     <td>
