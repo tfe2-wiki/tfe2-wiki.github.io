@@ -242,12 +242,12 @@ ${`
 </table>
 <details>
 	<summary>buildinginfo.json entry</summary>
-	\`\`\`json
-	${JSON.stringify(building, null, 2)}
-	\`\`\`
+	!@#$%^JSON!@#$%^
 </details>
 <blockquote><i>"${description}"</i></blockquote>
-`/**/.replace(/\n|\t/g, "")/**/}
+`/**/.replace(/\n|\t/g, "")/**/.replace("!@#$%^JSON!@#$%^", `\`\`\`json
+	${JSON.stringify(building, null, 4)}
+	\`\`\``)}
 
 ${buildingPageInfo[name] ? buildingPageInfo[name] : "The page for "+name+" is in need of content. Please help by contributing to the wiki!"}
 `
