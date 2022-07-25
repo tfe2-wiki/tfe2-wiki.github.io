@@ -1,0 +1,48 @@
+[
+    {
+        "textureName": "spr_bridge",
+        "className": "Bridge",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 200,
+        "refinedMetal": 25,
+        "maxSize": 3
+    },
+    {
+        "textureName": "spr_woodenbridge",
+        "className": "WoodenBridge",
+        "food": 0,
+        "wood": 500,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "refinedMetal": 0,
+        "maxSize": 3
+    },
+    {
+        "textureName": "spr_reinforcedbridge",
+        "className": "ReinforcedBridge",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 15000,
+        "refinedMetal": 50,
+        "graphene": 7,
+        "maxSize": 7
+    },
+    {
+        "textureName": "spr_botanicalbridge",
+        "className": "BotanicalBridge",
+        "food": 0,
+        "wood": 50,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 30000,
+        "refinedMetal": 40,
+        "graphene": 7,
+        "maxSize": 7
+    }
+]

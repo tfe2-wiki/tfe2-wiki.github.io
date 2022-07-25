@@ -1,0 +1,107 @@
+[
+    {
+        "textureName": "spr_grass",
+        "food": 0,
+        "wood": 1,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature"
+    },
+    {
+        "textureName": "spr_flowers",
+        "food": 0,
+        "wood": 1,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature"
+    },
+    {
+        "textureName": "spr_flowers_blue",
+        "food": 0,
+        "wood": 1,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature",
+        "specialInfo": ["geneEditingReq"]
+    },
+    {
+        "textureName": "spr_decoration_rocks",
+        "food": 0,
+        "wood": 0,
+        "stone": 1,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature"
+    },
+    {
+        "textureName": "spr_decoration_keycity",
+        "food": 0,
+        "wood": 1,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature"
+    },
+    {
+        "textureName": "spr_flowers_keycity",
+        "food": 0,
+        "wood": 1,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature"
+    },
+    {
+        "textureName": "spr_purplegrass",
+        "food": 0,
+        "wood": 1,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature",
+        "specialInfo": ["geneEditingReq"]
+    },
+    {
+        "textureName": "spr_redgrass",
+        "food": 0,
+        "wood": 1,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature",
+        "specialInfo": ["geneEditingReq"]
+    },
+    {
+        "textureName": "spr_snowman",
+        "food": 1,
+        "wood": 0,
+        "stone": 1,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature",
+        "specialInfo": ["snow"]
+    },
+    {
+        "textureName": "spr_lanterns",
+        "food": 0,
+        "wood": 0,
+        "stone": 5,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature",
+        "specialInfo": ["snow"]
+    },
+    {
+        "textureName": "spr_removedecoration",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature",
+        "isRemoveDecoration": true
+    }
+]

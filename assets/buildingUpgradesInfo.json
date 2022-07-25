@@ -1,0 +1,510 @@
+[
+    {
+        "className": "Flowers",
+        "food": 1,
+        "wood": 2,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "MiniChristmasTree",
+        "food": 0,
+        "wood": 5,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "unlockedByDefault": false,
+        "notUnlockedWithAll": true
+    },
+    {
+        "className": "MachinePartsFactoryEfficiency",
+        "food": 0,
+        "wood": 0,
+        "stone": 5,
+        "machineParts": 10,
+        "knowledge": 20
+    },
+    {
+        "className": "FactoryDisabled",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "FactoryUsingWood",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "FactoryUsingFood",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "StoneUsingFactoryDisabled",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "RefinedStoneUsingFactoryDisabled",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "MachinePartsFactoryTurbo",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 10
+    },
+    {
+        "className": "RefinedMetalsFactoryHack",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "computerChips": 0,
+        "knowledge": 1337,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "FactoryWorking",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "LabWorking",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "LabDisabled",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "LiteratureReviews",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 1000
+    },
+    {
+        "className": "FarmingResearch",
+        "food": 0,
+        "wood": 30,
+        "stone": 0,
+        "machineParts": 10,
+        "knowledge": 30
+    },
+    {
+        "className": "TreePlantationResearch",
+        "food": 0,
+        "wood": 10,
+        "stone": 0,
+        "machineParts": 20,
+        "knowledge": 70
+    },
+    {
+        "className": "BetterPickaxes",
+        "food": 0,
+        "wood": 3,
+        "stone": 3,
+        "machineParts": 0,
+        "knowledge": 3
+    },
+    {
+        "className": "AIMining",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "computerChips": 10,
+        "knowledge": 1500,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "DieShrink",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 50,
+        "computerChips": 5,
+        "refinedMetal": 10,
+        "knowledge": 1000
+    },
+    {
+        "className": "BetterLightShow",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 20,
+        "computerChips": 2,
+        "refinedMetal": 0,
+        "knowledge": 100
+    },
+    {
+        "className": "MedicalEducation",
+        "food": 100,
+        "wood": 10,
+        "stone": 0,
+        "machineParts": 0,
+        "computerChips": 0,
+        "refinedMetal": 0,
+        "knowledge": 100
+    },
+    {
+        "className": "AIAssistedDiagnosis",
+        "food": 0,
+        "wood": 0,
+        "stone": 20,
+        "machineParts": 50,
+        "computerChips": 25,
+        "refinedMetal": 0,
+        "knowledge": 1000
+    },
+    {
+        "className": "StoneTeleporterRemote",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 2,
+        "computerChips": 5,
+        "refinedMetal": 0,
+        "knowledge": 500
+    },
+    {
+        "className": "BiggerTV",
+        "food": 0,
+        "wood": 0,
+        "stone": 2,
+        "machineParts": 0,
+        "computerChips": 1,
+        "knowledge": 100
+    },
+    {
+        "className": "ModernHomePlant",
+        "food": 20,
+        "wood": 10,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 500
+    },
+    {
+        "className": "HeatedBed",
+        "food": 0,
+        "wood": 10,
+        "stone": 0,
+        "machineParts": 5,
+        "computerChips": 1,
+        "knowledge": 750
+    },
+    {
+        "className": "SmartChairs",
+        "food": 0,
+        "wood": 4,
+        "stone": 0,
+        "machineParts": 4,
+        "computerChips": 4,
+        "knowledge": 1000
+    },
+    {
+        "className": "ModernConveniences",
+        "food": 0,
+        "wood": 5,
+        "stone": 0,
+        "machineParts": 5,
+        "computerChips": 0,
+        "refinedMetal": 2,
+        "knowledge": 100
+    },
+    {
+        "className": "WorkshopKnowledge",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "WorkshopMachineParts",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "StarDatabase",
+        "food": 0,
+        "wood": 0,
+        "stone": 5,
+        "machineParts": 0,
+        "computerChips": 5,
+        "knowledge": 100
+    },
+    {
+        "className": "SofterBeds",
+        "food": 12,
+        "wood": 6,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 50
+    },
+    {
+        "className": "BoardGameCollection",
+        "food": 5,
+        "wood": 4,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 150
+    },
+    {
+        "className": "SmartLights",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "computerChips": 1,
+        "refinedMetal": 5,
+        "knowledge": 200
+    },
+    {
+        "className": "LivingComputer",
+        "food": 25,
+        "wood": 50,
+        "stone": 0,
+        "machineParts": 0,
+        "computerChips": 1,
+        "knowledge": 2000,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "BetterTools",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 10,
+        "computerChips": 2,
+        "refinedMetal": 6,
+        "knowledge": 3000
+    },
+    {
+        "className": "MisdirectorNormal",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "MisdirectorAlways",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 5000
+    },
+    {
+        "className": "MisdirectorMostlyDisabled",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "MisdirectorDisabled",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 50000
+    },
+    {
+        "className": "IndoorPond",
+        "food": 20,
+        "wood": 0,
+        "stone": 100,
+        "machineParts": 0,
+        "knowledge": 10000
+    },
+    {
+        "className": "CHProduceStone",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "CHProduceWood",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "CHProduceFood",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "PickaxeTech",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "computerChips": 25,
+        "knowledge": 2500,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "FossilScanner",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "computerChips": 2000,
+        "knowledge": 150000,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "UltimateScrewdriver",
+        "food": 0,
+        "wood": 0,
+        "stone": 1,
+        "machineParts": 1,
+        "computerChips": 5,
+        "knowledge": 10000,
+        "unlockedByDefault": true
+    },
+    {
+        "className": "AutomaticWaterManagement",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 5,
+        "computerChips": 5,
+        "knowledge": 5000,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "CulinaryHerbs",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0
+    },
+    {
+        "className": "MedicalHerbs",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 25
+    },
+    {
+        "className": "ComfortableCouch",
+        "food": 20,
+        "wood": 5,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 200,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "SmartSpeaker",
+        "food": 0,
+        "wood": 2,
+        "stone": 0,
+        "machineParts": 2,
+        "computerChips": 2,
+        "knowledge": 1000,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "SoundProofing",
+        "food": 0,
+        "wood": 20,
+        "stone": 10,
+        "machineParts": 0,
+        "computerChips": 0,
+        "knowledge": 3000,
+        "unlockedByDefault": true
+    },
+    {
+        "className": "RocketFuelFactoryEfficiency",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 25,
+        "computerChips": 5,
+        "knowledge": 5000,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "RefinedMetalFactoryEfficiency",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 20,
+        "computerChips": 3,
+        "knowledge": 10000,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "GrapheneFactoryImprovement",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "refinedMetal": 1,
+        "computerChips": 5,
+        "knowledge": 20000,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "TheMachineUpgrade",
+        "rocketFuel": 20000,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "refinedMetal": 0,
+        "computerChips": 5000,
+        "graphene": 1000,
+        "knowledge": 50000,
+        "unlockedByDefault": false
+    }
+]

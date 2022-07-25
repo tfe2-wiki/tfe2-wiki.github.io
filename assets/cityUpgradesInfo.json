@@ -1,0 +1,225 @@
+[
+    {
+        "className": "UniverseMapping",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 25000,
+        "unlockedByDefault": true
+    },
+    {
+        "className": "OptimizedChipLayouts",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 50000,
+        "unlockedByDefault": true
+    },
+    {
+        "className": "MedicalMachineLearning",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 100000,
+        "unlockedByDefault": true
+    },
+    {
+        "className": "WoodenLiving",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 200,
+        "unlockedByDefault": true
+    },
+    {
+        "className": "SpaciousLiving",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 250,
+        "unlockedByDefault": true
+    },
+    {
+        "className": "SlimyLiving",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 500,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "SecretiveLiving",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 200,
+        "unlockedByDefault": false,
+        "notUnlockedWithAll": true
+    },
+    {
+        "className": "MechanicalLiving",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 8000,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "SuperSpaciousLiving",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 9500,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "BirthControl",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 100,
+        "unlockedByDefault": true
+    },
+    {
+        "className": "BuildingRecycling",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 25,
+        "unlockedByDefault": true,
+        "nextUpgrade": "BuildingRecycling2"
+    },
+    {
+        "className": "BuildingRecycling2",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 125,
+        "unlockedByDefault": false,
+        "nextUpgrade": "BuildingRecycling3"
+    },
+    {
+        "className": "BuildingRecycling3",
+        "nameIfNotDone": "Sustainable Building",
+        "descriptionIfNotDone": "When you destroy a building, you get back 90% of its cost.",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 500,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "ChipBinning",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 5000,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "EcoFarmUpgrade",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 1250,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "RocketMissionSupercomputerUpgrade",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "RocketTeleporterCostReductionFromWorld",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "RocketMissionRocketFuelFactoryUpgrade",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "RocketMissionCheaperRockets",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "unlockedByDefault": false
+    },
+    {
+        "className": "RocketSubCityRockWorld",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "unlockedByDefault": false,
+        "notUnlockedWithAll": true
+    },
+    {
+        "className": "RocketSubCityStrangeForests",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "unlockedByDefault": false,
+        "notUnlockedWithAll": true
+    },
+    {
+        "className": "GeneEditing",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 5000,
+        "unlockedByDefault": true
+    },
+    {
+        "className": "LibraryAllowDuplicates",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 200000,
+        "unlockedByDefault": true
+    },
+    {
+        "className": "ConnectedMachines",
+        "food": 0,
+        "wood": 0,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 500000,
+        "unlockedByDefault": true
+    }
+]

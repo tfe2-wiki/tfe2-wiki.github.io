@@ -1,0 +1,85 @@
+[
+    {
+        "link": "theLostShip",
+        "unlockedWithAll": true
+    },
+    {
+        "link": "multipleWorlds",
+        "requirements": [
+            "theLostShip"
+        ],
+        "unlockedWithAll": true
+    },
+    {
+        "link": "hackersandaliens",
+        "requirements": [
+            "multipleWorlds"
+        ],
+        "unlockedWithAll": true
+    },
+    {
+        "link": "cityofthekey",
+        "requirements": [
+            "hackersandaliens",
+            "notDemo"
+        ],
+        "unlockedWithAll": true
+    },
+    {
+        "link": "rocketLaunch",
+        "requirements": [
+            "cityofthekey",
+            "notDemo",
+            "premium"
+        ],
+        "unlockedWithAll": true
+    },
+    {
+        "link": "snowWorld",
+        "requirements": [
+            "isSnow"
+        ]
+    },
+    {
+        "link": "FreePlayMegaWorld",
+        "freePlay": true
+    },
+    {
+        "link": "FreePlayManyWorldsRandom",
+        "freePlay": true
+    },
+    {
+        "link": "FreePlayEmptyCanvas",
+        "freePlay": true
+    },
+    {
+        "link": "FreePlayDivided",
+        "freePlay": true
+    },
+    {
+        "link": "FreePlayRandomMiniWorlds",
+        "freePlay": true
+    },
+    {
+        "link": "FreePlayRandomMiniWorldsAndEmptyCanvas",
+        "requirements": [
+            "notDemo",
+            "fullVersion"
+        ],
+        "freePlay": true
+    },
+    {
+        "link": "FreePlayManyWorlds",
+        "requirements": [
+            "notDemo"
+        ],
+        "freePlay": true
+    },
+    {
+        "link": "FreePlayMiniWorld",
+        "requirements": [
+            "premium"
+        ],
+        "freePlay": true
+    }
+]

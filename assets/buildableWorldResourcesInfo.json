@@ -1,0 +1,100 @@
+[
+    {
+        "textureName": "spr_forest@0,0,20,20",
+        "className": "Forest",
+        "initialGrow": 10,
+        "food": 0,
+        "wood": 20,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature",
+        "specialInfo": ["planting"]
+    },
+    {
+        "textureName": "spr_pineforest@0,0,20,20",
+        "className": "PineForest",
+        "initialGrow": 10,
+        "food": 0,
+        "wood": 20,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature",
+        "specialInfo": ["planting"]
+    },
+    {
+        "textureName": "spr_forest_branches@0,0,20,20",
+        "className": "BranchyForest",
+        "initialGrow": 10,
+        "food": 0,
+        "wood": 20,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature",
+        "specialInfo": ["planting"]
+    },
+    {
+        "textureName": "spr_forest_snow@0,0,20,20",
+        "className": "ForestSnow",
+        "initialGrow": 10,
+        "food": 0,
+        "wood": 20,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature",
+        "specialInfo": ["snow", "planting"]
+    },
+    {
+        "textureName": "spr_redforest@0,0,20,20",
+        "className": "RedForest",
+        "initialGrow": 10,
+        "food": 0,
+        "wood": 20,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature",
+        "specialInfo": ["planting"],
+        "unlockedByDefault": false
+    },
+    {
+        "textureName": "spr_purpleforest@0,0,20,20",
+        "className": "PurpleForest",
+        "initialGrow": 10,
+        "food": 0,
+        "wood": 20,
+        "stone": 0,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature",
+        "specialInfo": ["planting"],
+        "unlockedByDefault": false
+    },
+    {
+        "textureName": "spr_rock@0,0,20,20",
+        "className": "Rock",
+        "food": 0,
+        "wood": 0,
+        "stone": 250,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature",
+        "specialInfo": [],
+        "initialResources": 250
+    },
+    {
+        "textureName": "spr_boulder@0,0,20,20",
+        "className": "Boulder",
+        "food": 0,
+        "wood": 0,
+        "stone": 200,
+        "machineParts": 0,
+        "knowledge": 0,
+        "category": "Decoration & Nature",
+        "specialInfo": [],
+        "initialResources": 200
+    }
+]
