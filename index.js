@@ -50,7 +50,12 @@ const sprites = require('./assets/sprites.json')
 const spritesOverrides = require('./assets/spritesOverrides.json')
 const { json } = require('stream/consumers')
 
-const buildingPageInfo = parseInfoFile('./buildings.info', 'utf8')
+let buildingPageInfo
+try {
+	buildingPageInfo = parseInfoFile('./buildings.info', 'utf8')
+} catch (e) {
+	buildingPageInfo = {}
+}
 
 var pages = {}
 
@@ -117,15 +122,8 @@ buildinginfo.forEach(function(building) {
 		// capitalize the first letter
 		specialInfo[i] = specialInfo[i].charAt(0).toUpperCase() + specialInfo[i].slice(1).toLowerCase()
 	})
-	let page = 
-`---
-title: ${name}
-parent: Buildings
----
-# ${name}
 
-[//]: # (Pre-generated content)
-${`
+	let buildingStatsHTML = `
 <table>
 <thead>
 	<tr>
@@ -143,7 +141,7 @@ ${`
 			</dd>` : ""}
 			${costlistArray.length > 0 || building.knowledge ? `<dt>Research Cost</dt>
 			<dd>
-				${building.knowledge ? `<img style="object-position: ${-sprites.frames["spr_resource_knowledge.png"].frame.x}px ${-sprites.frames["spr_resource_knowledge.png"].frame.y}px;" src="https://tfe2-wiki.github.io/assets/sprites.png"> ` + building.knowledge : "None"}
+				${building.knowledge ? `<div class="resource-icon"><img style="object-position: ${-sprites.frames["spr_resource_knowledge.png"].frame.x}px ${-sprites.frames["spr_resource_knowledge.png"].frame.y}px;" src="https://tfe2-wiki.github.io/assets/sprites.png"></div> ` + building.knowledge : "None"}
 			</dd>` : ""}
 			${capacity.length > 0 ? `<dt>Capacity</dt>
 			<dd>
@@ -242,12 +240,31 @@ ${`
 </tbody>
 </table>
 <blockquote><i>"${description}"</i></blockquote>
-`/**/.replace(/\n|\t/g, "")/**/}
+`.replace(/\n|\t/g, "")
+
+	let page
+	try {
+		page = fs.readFileSync("./pages/buildings/"+building.className+".md", 'utf8').toString()
+		page = page.split(/\r?\n/)
+		page[page.indexOf("[//]: # (Pre-generated content)")+1] = buildingStatsHTML
+		page = page.join("\n")
+		console.log("Updating page for " + building.className)
+	} catch (e) {
+		console.log("Creating page for " + building.className)
+		page =
+`---
+title: ${name}
+parent: Buildings
+---
+# ${name}
+
+[//]: # (Pre-generated content)
+${buildingStatsHTML}
 
 ${buildingPageInfo[name] ? buildingPageInfo[name] : "The page for "+name+" is in need of content. Please help by contributing to the wiki!"}
 
 ## Technical Info
-### Entry in \`buildinginfo.json\`
+Entry in \`buildinginfo.json\`
 
 \`\`\`json
 ${buildingJSON}
@@ -256,6 +273,7 @@ ${buildingJSON}
 Sprite: \`${spriteName}\`
 
 `
+	}
 	pages[building.className] = page
 })
 
