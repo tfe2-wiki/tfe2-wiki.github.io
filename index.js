@@ -105,15 +105,15 @@ buildinginfo.forEach(function(building) {
 		` + costlist[resource] + " " + resource)
 	}
 	let capacity = []
-	if (building.residents) capacity.push(building.residents + " Residents")
-	if (building.jobs) capacity.push(building.jobs + " Jobs")
+	if (building.residents) capacity.push(building.residents + " Resident" + (building.residents > 1 ? "s" : ""))
+	if (building.jobs) capacity.push(building.jobs + " Jobs" + (building.jobs > 1 ? "s" : ""))
 	// capitalize specialInfo phrases
 	let specialInfo = building.specialInfo
 	specialInfo.forEach(function(phrase, i) {
 		// for each phrase, split right before capital letters
 		// dont remove them though, they are needed for proper capitalization
 		// join the parts back together with spaces
-		specialInfo[i] = phrase.match(/([A-Z]?[a-z]+)/g).join(" ")
+		specialInfo[i] = phrase.match(/([A-Z]?[^A-Z\s]+)/g).join(" ")
 		// capitalize the first letter
 		specialInfo[i] = specialInfo[i].charAt(0).toUpperCase() + specialInfo[i].slice(1).toLowerCase()
 	})
@@ -137,22 +137,22 @@ ${`
 	<tr>
 	<td>
 		<dl>
-			<dt>Cost</dt>
+			${costlistArray.length > 0 ? `<dt>Cost</dt>
 			<dd>
-				${costlistArray.length > 0 ? costlistArray.join('<br>') : "None"}
-			</dd>
-			<dt>Capacity</dt>
+				${costlistArray.join('<br>')}
+			</dd>` : ""}
+			${costlistArray.length > 0 || building.knowledge ? `<dt>Research Cost</dt>
 			<dd>
-				${capacity.length > 0 ? capacity.join('<br>') : "None"}
-			</dd>
+				${building.knowledge ? `<img style="object-position: ${-sprites.frames["spr_resource_knowledge.png"].frame.x}px ${-sprites.frames["spr_resource_knowledge.png"].frame.y}px;" src="https://tfe2-wiki.github.io/assets/sprites.png"> ` + building.knowledge : "None"}
+			</dd>` : ""}
+			${capacity.length > 0 ? `<dt>Capacity</dt>
+			<dd>
+				${capacity.join('<br>')}
+			</dd>` : ""}
 			${building.quality ? `<dt>Quality</dt>
 			<dd>
 				${building.quality}
 			</dd>` : ""}
-			<dt>Research Cost</dt>
-			<dd>
-				${building.knowledge ? building.knowledge : "None"}
-			</dd>
 			<dt>Category</dt>
 			<dd>
 				${building.category || "None"}
@@ -236,21 +236,25 @@ ${`
 			<img style="object-position: ${-backSpriteX}px ${-backSpriteY}px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="${name} Back">
 			<img style="object-position: ${-spriteX}px ${-spriteY}px;" src="https://tfe2-wiki.github.io/assets/sprites.png" alt="${name}">
 		</div>
-		<i>${name}: ${spriteName}</i>
+		<i>${name} with a door</i>
 	</td>
 	</tr>
 </tbody>
 </table>
-<details>
-	<summary>buildinginfo.json entry</summary>
-	!@#$%^JSON!@#$%^
-</details>
 <blockquote><i>"${description}"</i></blockquote>
-`/**/.replace(/\n|\t/g, "")/**/.replace("!@#$%^JSON!@#$%^", `\`\`\`json
-	${buildingJSON}
-	\`\`\``)}
+`/**/.replace(/\n|\t/g, "")/**/}
 
 ${buildingPageInfo[name] ? buildingPageInfo[name] : "The page for "+name+" is in need of content. Please help by contributing to the wiki!"}
+
+## Technical Info
+### Entry in \`buildinginfo.json\`
+
+\`\`\`json
+${buildingJSON}
+\`\`\`
+
+Sprite: \`${spriteName}\`
+
 `
 	pages[building.className] = page
 })
