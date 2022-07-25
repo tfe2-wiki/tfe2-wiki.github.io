@@ -18,7 +18,7 @@ parent: Buildings
     "category": "Houses",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Premium"
+        "premium"
     ],
     "residents": 3,
     "quality": 100,

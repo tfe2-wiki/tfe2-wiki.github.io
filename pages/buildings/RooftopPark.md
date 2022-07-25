@@ -16,7 +16,7 @@ parent: Buildings
     "category": "Entertainment",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Rooftop"
+        "rooftop"
     ],
     "buttonBack": "spr_rooftoppark_buttonbg",
     "onBuildSprite": "spr_rooftoppark_onbuild"

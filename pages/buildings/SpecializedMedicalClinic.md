@@ -19,8 +19,8 @@ parent: Buildings
     "category": "Services",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Limited",
-        "Limited to citizens"
+        "limited",
+        "limitedToCitizens:1000"
     ],
     "jobs": 2
 }

@@ -16,8 +16,8 @@ parent: Buildings
     "category": "Decoration & Nature_roofbottom",
     "unlockedByDefault": true,
     "specialInfo": [
-        "Rooftop",
-        "As multi decor"
+        "rooftop",
+        "as_multi_decor"
     ]
 }
 	```</details><blockquote><i>"A bottom piece for two slanted roofs."</i></blockquote>

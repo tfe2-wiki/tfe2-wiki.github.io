@@ -18,7 +18,7 @@ parent: Buildings
     "category": "Unique Buildings",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Unique"
+        "unique"
     ],
     "buttonBack": "spr_statueofhappiness_bg",
     "notUnlockedWithAll": true

@@ -16,7 +16,7 @@ parent: Buildings
     "category": "Production",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Premium"
+        "premium"
     ],
     "jobs": 2,
     "buttonBack": "spr_alienfarm_buttonback"

@@ -16,8 +16,8 @@ parent: Buildings
     "category": "Production",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Rooftop",
-        "Premium"
+        "rooftop",
+        "premium"
     ],
     "jobs": 2,
     "buttonBack": "spr_dome_treeplantation_buttonback"

@@ -18,8 +18,8 @@ parent: Buildings
     "category": "Unique Buildings",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Unique",
-        "Rooftop"
+        "unique",
+        "rooftop"
     ],
     "notUnlockedWithAll": true
 }

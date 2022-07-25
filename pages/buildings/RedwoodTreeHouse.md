@@ -18,8 +18,8 @@ parent: Buildings
     "unlockedByDefault": false,
     "notUnlockedWithAll": true,
     "specialInfo": [
-        "Build on ground",
-        "Disable insert replace or build on top"
+        "buildOnGround",
+        "disableInsertReplaceOrBuildOnTop"
     ],
     "buttonBack": "none",
     "residents": 2,

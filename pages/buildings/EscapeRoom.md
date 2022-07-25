@@ -18,8 +18,8 @@ parent: Buildings
     "category": "Unique Buildings",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Unique",
-        "Not unique if galactic library"
+        "unique",
+        "notUniqueIfGalacticLibrary"
     ],
     "jobs": 1
 }

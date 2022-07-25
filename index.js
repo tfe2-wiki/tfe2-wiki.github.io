@@ -62,6 +62,7 @@ var pages = {}
 console.info("Generating building pages...")
 fs.mkdirSync('./pages/buildings', { recursive: true })
 buildinginfo.forEach(function(building) {
+	let buildingJSON = JSON.stringify(building, null, 4)
 	let name = en["buildinginfo.json/" + building.className + ".name"]
 	// console.log("Generating page for " + building.className + ": " + name)
 	// remove last instance of newline
@@ -246,7 +247,7 @@ ${`
 </details>
 <blockquote><i>"${description}"</i></blockquote>
 `/**/.replace(/\n|\t/g, "")/**/.replace("!@#$%^JSON!@#$%^", `\`\`\`json
-	${JSON.stringify(building, null, 4)}
+	${buildingJSON}
 	\`\`\``)}
 
 ${buildingPageInfo[name] ? buildingPageInfo[name] : "The page for "+name+" is in need of content. Please help by contributing to the wiki!"}

@@ -16,7 +16,7 @@ parent: Buildings
     "category": "Decoration & Nature_coloredBlocks",
     "unlockedByDefault": true,
     "specialInfo": [
-        "As multi decor"
+        "as_multi_decor"
     ]
 }
 	```</details><blockquote><i>"A building painted in a single color for decoration purposes, or as a placeholder."</i></blockquote>

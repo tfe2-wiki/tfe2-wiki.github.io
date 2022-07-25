@@ -19,8 +19,8 @@ parent: Buildings
     "category": "Unique Buildings",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Unique",
-        "Premium"
+        "unique",
+        "premium"
     ],
     "buttonBack": "spr_oldesttreeintheuniverse"
 }

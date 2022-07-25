@@ -18,7 +18,7 @@ parent: Buildings
     "category": "Unique Buildings",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Unique"
+        "unique"
     ]
 }
 	```</details><blockquote><i>"Makes Secret Society of the Key members live forever. Also produces random resources every day."</i></blockquote>

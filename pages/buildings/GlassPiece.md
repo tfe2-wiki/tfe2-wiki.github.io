@@ -16,9 +16,9 @@ parent: Buildings
     "category": "Decoration & Nature_coloredBlocks",
     "unlockedByDefault": true,
     "specialInfo": [
-        "As multi decor",
-        "Has multi decor spec",
-        "Multi decor spec spr indoorfarm spr treeplantation"
+        "as_multi_decor",
+        "has_multi_decor_spec",
+        "multi_decor_spec:spr_indoorfarm,spr_treeplantation"
     ]
 }
 	```</details><blockquote><i>"A window for decorative purposes, or as a placeholder."</i></blockquote>

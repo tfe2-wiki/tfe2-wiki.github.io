@@ -18,7 +18,7 @@ parent: Buildings
     "category": "Transportation",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Premium"
+        "premium"
     ],
     "buttonBack": "spr_trainstation_buttonbg"
 }

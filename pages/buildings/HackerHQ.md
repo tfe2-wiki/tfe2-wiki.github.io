@@ -18,7 +18,7 @@ parent: Buildings
     "category": "Unique Buildings",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Unique"
+        "unique"
     ],
     "residents": 6,
     "quality": 100,

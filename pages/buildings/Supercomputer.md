@@ -18,8 +18,8 @@ parent: Buildings
     "category": "Unique Buildings",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Unique",
-        "Not unique if galactic library"
+        "unique",
+        "notUniqueIfGalacticLibrary"
     ]
 }
 	```</details><blockquote><i>"Produces knowledge based on the amount of lab employees in your city. Also allows you to research some city upgrades."</i></blockquote>

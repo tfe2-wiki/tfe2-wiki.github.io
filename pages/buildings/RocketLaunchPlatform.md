@@ -19,10 +19,10 @@ parent: Buildings
     "category": "Unique Buildings",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Unique",
-        "Rooftop",
-        "City top",
-        "Premium"
+        "unique",
+        "rooftop",
+        "cityTop",
+        "premium"
     ]
 }
 	```</details><blockquote><i>"Build rockets to explore space."</i></blockquote>

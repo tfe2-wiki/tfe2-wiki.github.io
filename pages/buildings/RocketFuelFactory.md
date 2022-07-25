@@ -17,7 +17,7 @@ parent: Buildings
     "category": "Production",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Premium"
+        "premium"
     ],
     "jobs": 2
 }

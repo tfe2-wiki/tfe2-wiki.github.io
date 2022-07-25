@@ -16,8 +16,8 @@ parent: Buildings
     "category": "Decoration & Nature_slantedrooftops",
     "unlockedByDefault": true,
     "specialInfo": [
-        "Rooftop",
-        "As multi decor"
+        "rooftop",
+        "as_multi_decor"
     ]
 }
 	```</details><blockquote><i>"The top of a slanted roof."</i></blockquote>

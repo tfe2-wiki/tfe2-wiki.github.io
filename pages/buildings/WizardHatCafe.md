@@ -17,8 +17,8 @@ parent: Buildings
     "category": "Entertainment",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Rooftop",
-        "Premium"
+        "rooftop",
+        "premium"
     ],
     "jobs": 1
 }

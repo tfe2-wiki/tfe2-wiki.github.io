@@ -18,7 +18,7 @@ parent: Buildings
     "category": "Transportation",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Premium"
+        "premium"
     ]
 }
 	```</details><blockquote><i>"Trains can go extra fast here."</i></blockquote>

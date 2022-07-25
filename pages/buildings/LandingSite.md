@@ -16,7 +16,7 @@ parent: Buildings
     "category": "Transportation",
     "unlockedByDefault": true,
     "specialInfo": [
-        "Rooftop"
+        "rooftop"
     ],
     "buttonBack": "spr_flyingsaucer"
 }

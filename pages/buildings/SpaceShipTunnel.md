@@ -16,7 +16,7 @@ parent: Buildings
     "category": "Transportation",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Premium"
+        "premium"
     ]
 }
 	```</details><blockquote><i>"Space ships can pass through this tunnel."</i></blockquote>

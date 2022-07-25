@@ -19,9 +19,9 @@ parent: Buildings
     "unlockedByDefault": false,
     "notUnlockedWithAll": true,
     "specialInfo": [
-        "Unique",
-        "City top",
-        "Rooftop"
+        "unique",
+        "cityTop",
+        "rooftop"
     ],
     "jobs": 1,
     "buttonBack": "spr_researchbot"

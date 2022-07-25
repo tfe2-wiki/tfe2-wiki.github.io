@@ -17,7 +17,7 @@ parent: Buildings
     "category": "Houses",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Rooftop"
+        "rooftop"
     ],
     "residents": 2,
     "quality": 88

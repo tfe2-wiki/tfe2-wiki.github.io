@@ -20,7 +20,7 @@ parent: Buildings
     "residents": 4,
     "quality": 100,
     "specialInfo": [
-        "Rooftop"
+        "rooftop"
     ],
     "teleporterOperatingCost": 2
 }

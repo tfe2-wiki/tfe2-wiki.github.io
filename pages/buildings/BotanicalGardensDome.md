@@ -17,7 +17,7 @@ parent: Buildings
     "category": "Entertainment",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Rooftop"
+        "rooftop"
     ],
     "buttonBack": "spr_botanicalgarden_dome_buttonback"
 }

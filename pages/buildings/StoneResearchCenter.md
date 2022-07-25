@@ -19,7 +19,7 @@ parent: Buildings
     "category": "Unique Buildings",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Unique"
+        "unique"
     ],
     "additionalNoteForPeopleReadingThis": "You also need a Refined Metal Factory!"
 }

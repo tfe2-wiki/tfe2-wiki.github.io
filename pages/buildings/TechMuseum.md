@@ -19,7 +19,7 @@ parent: Buildings
     "category": "Entertainment",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Premium"
+        "premium"
     ],
     "jobs": 2,
     "buttonBack": "spr_techmuseum_buttonback"

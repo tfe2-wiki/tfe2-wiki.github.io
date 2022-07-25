@@ -16,8 +16,8 @@ parent: Buildings
     "category": "Decoration & Nature_domeroofs",
     "unlockedByDefault": true,
     "specialInfo": [
-        "Rooftop",
-        "As multi decor"
+        "rooftop",
+        "as_multi_decor"
     ]
 }
 	```</details><blockquote><i>"A dome that can be placed on a roof."</i></blockquote>

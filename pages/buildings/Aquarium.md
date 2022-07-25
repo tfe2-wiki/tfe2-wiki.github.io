@@ -17,7 +17,7 @@ parent: Buildings
     "category": "Entertainment",
     "unlockedByDefault": false,
     "specialInfo": [
-        "Premium"
+        "premium"
     ],
     "buttonBack": "spr_aquarium_buttonback",
     "additionalNoteForPeopleReadingThis": "You also need a Refined Metal Factory!"

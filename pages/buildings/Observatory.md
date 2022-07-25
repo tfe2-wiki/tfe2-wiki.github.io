@@ -18,9 +18,9 @@ parent: Buildings
     "category": "Unique Buildings",
     "unlockedByDefault": true,
     "specialInfo": [
-        "Unique",
-        "Rooftop",
-        "Not unique if galactic library"
+        "unique",
+        "rooftop",
+        "notUniqueIfGalacticLibrary"
     ],
     "jobs": 3
 }

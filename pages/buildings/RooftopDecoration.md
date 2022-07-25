@@ -16,9 +16,9 @@ parent: Buildings
     "category": "Decoration & Nature_slantedroofs",
     "unlockedByDefault": true,
     "specialInfo": [
-        "Rooftop",
-        "As multi decor",
-        "Mirrorable"
+        "rooftop",
+        "as_multi_decor",
+        "mirrorable"
     ]
 }
 	```</details><blockquote><i>"A nice slanted roof for decoration purposes."</i></blockquote>
