@@ -50,6 +50,8 @@ const sprites = require('./assets/sprites.json')
 const spritesOverrides = require('./assets/spritesOverrides.json')
 const { json } = require('stream/consumers')
 
+let warnings = []
+
 let buildingPageInfo
 try {
 	buildingPageInfo = parseInfoFile('./buildings.info', 'utf8')
@@ -246,11 +248,18 @@ buildinginfo.forEach(function(building) {
 	try {
 		page = fs.readFileSync("./pages/buildings/"+building.className+".md", 'utf8').toString()
 		page = page.split(/\r?\n/)
-		page[page.indexOf("[//]: # (Pre-generated content)")+1] = buildingStatsHTML
-		page = page.join("\n")
-		console.log("Updating page for " + building.className)
+		let index = page.indexOf("[//]: # (Pre-generated content)")
+		if (index > -1) {
+			page[index+1] = buildingStatsHTML
+			page = page.join("\n")
+			// console.log("Updating page for " + building.className)
+		} else {
+			page = page.join("\n")
+			// console.log("Unable to update page for " + building.className)
+			warnings.push("Pre-generated content not found for " + building.className + ", must be updated manually")
+		}
 	} catch (e) {
-		console.log("Creating page for " + building.className)
+		console.info("Creating page for " + building.className)
 		page =
 `---
 title: ${name}
@@ -282,3 +291,7 @@ writePages("buildings")
 
 // after everything is done
 console.info("Done!")
+console.info(warnings.length + " warning" + (warnings.length == 1 ? "" : "s") + (warnings.length > 0 ? ":" : ""))
+if (warnings.length > 0) {
+	warnings.forEach(w => console.warn("WARN: " + w))
+}
