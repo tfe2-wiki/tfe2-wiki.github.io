@@ -3,7 +3,8 @@ title: Home
 nav_order: 1
 ---
 
-![Wiki banner](https://tfe2-wiki.github.io/assets/wikibanner.png)
+![Wiki banner](assets/wikibanner.png)
+
 We are currently in the process of moving all content from [the old wiki](https://tfe2.fandom.com), any help would be wonderful!
 
 Welcome to the The Final Earth 2 Wiki!
