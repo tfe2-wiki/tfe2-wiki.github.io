@@ -48,6 +48,7 @@ const decorationsInfo = require('./assets/decorationsInfo.json')
 const stories = require('./assets/stories.json')
 const sprites = require('./assets/sprites.json')
 const spritesOverrides = require('./assets/spritesOverrides.json')
+const { json } = require('stream/consumers')
 
 const buildingPageInfo = parseInfoFile('./buildings.info', 'utf8')
 
@@ -239,6 +240,12 @@ ${`
 	</tr>
 </tbody>
 </table>
+<details>
+	<summary>buildinginfo.json entry</summary>
+	\`\`\`json
+	${JSON.stringify(building, null, 2)}
+	\`\`\`
+</details>
 <blockquote><i>"${description}"</i></blockquote>
 `/**/.replace(/\n|\t/g, "")/**/}
 
