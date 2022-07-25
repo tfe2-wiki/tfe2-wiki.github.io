@@ -15,7 +15,7 @@ Spacious Houses are inefficient when not upgraded, as they have a high price for
 
 
 ## Technical Info
-### Entry in `buildinginfo.json`
+Entry in `buildinginfo.json`
 
 ```json
 {

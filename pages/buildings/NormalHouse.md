@@ -16,7 +16,7 @@ As it is cheap and unlocked from the beginning, the Basic House is essential for
 The Living Research Center allows you to upgrade all basic homes to a different type, making it much easier to reach maximum home quality.
 
 ## Technical Info
-### Entry in `buildinginfo.json`
+Entry in `buildinginfo.json`
 
 ```json
 {

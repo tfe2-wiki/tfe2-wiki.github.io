@@ -16,7 +16,7 @@ Coming from a random discovery from alien ruins, Alien Houses are some of the be
 by Childrenmm Aadi indradevi TheGamer1002 Cefqrn Petersaur
 
 ## Technical Info
-### Entry in `buildinginfo.json`
+Entry in `buildinginfo.json`
 
 ```json
 {

@@ -10,7 +10,7 @@ parent: Buildings
 The page for Botanical Gardens is in need of content. Please help by contributing to the wiki!
 
 ## Technical Info
-### Entry in `buildinginfo.json`
+Entry in `buildinginfo.json`
 
 ```json
 {

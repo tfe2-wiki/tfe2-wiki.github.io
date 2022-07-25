@@ -10,7 +10,7 @@ parent: Buildings
 The page for Friends of the Key is in need of content. Please help by contributing to the wiki!
 
 ## Technical Info
-### Entry in `buildinginfo.json`
+Entry in `buildinginfo.json`
 
 ```json
 {

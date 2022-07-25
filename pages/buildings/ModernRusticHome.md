@@ -18,7 +18,7 @@ Even without placing it near other Modern Rustic Homes or Parks, it does provide
 In endgames, Modern Rustic Homes aren't that useful as they don't really hold many people & have upgrades & special placing requirements, which can be disturbed by building underneath them. Better choices would be Alien House (if you're looking for something just as cheap), Community House (which can produce materials too), Tinkerer's Houses (extra education), Villas (which have teleporters).
 
 ## Technical Info
-### Entry in `buildinginfo.json`
+Entry in `buildinginfo.json`
 
 ```json
 {

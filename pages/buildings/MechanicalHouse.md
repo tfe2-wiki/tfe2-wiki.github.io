@@ -11,7 +11,7 @@ The Mechanical House is a house in Final Earth 2. It is unlocked by building 3 M
 This building is unavailable on the Coolmath version of the game.
 
 ## Technical Info
-### Entry in `buildinginfo.json`
+Entry in `buildinginfo.json`
 
 ```json
 {
