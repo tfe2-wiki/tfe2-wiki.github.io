@@ -9,7 +9,7 @@ nav-order: 2
 
 Click on one of any of the edit buttons at the top of the navigation pane (located in the upper left corner)
 
-![Uh oh!](assets/tut01.png)
+![Uh oh!](/assets/tut01.png)
 
 ## Step 2
 
