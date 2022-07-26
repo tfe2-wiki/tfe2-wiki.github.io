@@ -1,11 +1,11 @@
 {%- if page.path == "index.md" -%}
-  <a target="_blank" class="btn" href="{{ site.github.repository_url }}/new/main/">New</a>
+  <a target="_blank" class="btn" href="{{ site.github.repository_url }}/new/main/pages">New</a>
   <a target="_blank" class="btn" href="{{ site.github.repository_url }}/edit/main/{{ page.path }}">Edit</a>
 {%- else -%}
 {%- if page.path == "404.md" -%}
-  <a target="_blank" class="btn" href="{{ site.github.repository_url }}/new/main/">New</a>
+  <a target="_blank" class="btn" href="{{ site.github.repository_url }}/new/main/pages">New</a>
 {%- else -%}
-  <a target="_blank" class="btn" href="{{ site.github.repository_url }}/new/main/">New</a>
+  <a target="_blank" class="btn" href="{{ site.github.repository_url }}/new/main/pages">New</a>
   <a target="_blank" class="btn" href="{{ site.github.repository_url }}/edit/main/{{ page.path }}">Edit</a>
   <a target="_blank" class="btn text-red-100" href="{{ site.github.repository_url }}/delete/main/{{ page.path }}">Delete</a>
 {%- endif -%}
