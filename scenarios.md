@@ -1,4 +1,4 @@
-# Scenario
+# Scenarios
 ---
 The Scenarios are one of the possible game modes, the other being Free Play.
 In Scenario mode, you must complete all tasks given by the game to complete the scenario
