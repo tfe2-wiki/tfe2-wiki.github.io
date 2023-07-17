@@ -41,3 +41,4 @@ Place Medical Clinics & upgrade them. Increasing the Education happiness helps i
 ## Trivia
 ---
 - The only way to get happiness above :D is to use the Festival HQ.
+- In City of the Key, there is a category called "Glory of the Key", and you have to build stuff that the Secret Society of the Key likes in order to get that happiness.
