@@ -57,10 +57,10 @@ landed ships.
 8. Complete a few Hackers of the Bolt missions. (Complete all Hacker missions up to Factory Hack)
 9. Build the Alien Decryptor
 
-##Winter World
+## Winter World
 ---
 This is a scenario that is annually available in December across all platforms that have Final Earth 2 as an HTML game. Here, you start with nothing, kind of like A New Beginning except that your world is covered in slow and you have two or so landing pads, like one of the Free Play Scenarios, A blank canvas. There are several special buildings.
-###Scenario Tasks
+### Scenario Tasks
 I forgot, but you will be able to see it when December 2023 comes.
 
 ## Trivia
