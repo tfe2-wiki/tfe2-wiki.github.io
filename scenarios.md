@@ -43,7 +43,7 @@ and a spaceship.
 
 ## Hacking Alien Tech
 ---
-This is the last scenario you can actually play. Unlike the previous scenarios, you will start
+This is the 3rd scenario you can play. Unlike the previous scenarios, you will start
 with an Indoor Farm, a Woodcutting Center, a Stone Mine, and 4 houses already built, along with 2 
 landed ships.
 ### Tasks in this scenario
@@ -57,6 +57,24 @@ landed ships.
 8. Complete a few Hackers of the Bolt missions. (Complete all Hacker missions up to Factory Hack)
 9. Build the Alien Decryptor
 
+## City of the Key
+---
+This is the last scenario. There will be all the production buildings up till experimentation lab (woodcutting center, stone mine, exploration center, machine parts factory, lab, tree plantation, rock teleporter, refined metal factory, computer chip factory, and experimentation lab) excluding woodcutting center and exploration center. There are 12 wooden houses, 2 mechanical houses (connected to machine parts factory), 2 pubs, 3 landing pads, 2 teleporters (enabled), workshop, computing research center, and the Secret Society of the Key on a svery small island.
+
+### Tasks in this scenario
+
+ 1. Invite 10 more citizens using the management menu.
+ 2. Produce 100 food, 100 stone and 50 knowledge in a day.
+ 3. Build 5 Sculpture Gardens.
+ 4. Gather 150 knowledge in a day.
+ 5. Have at 5 Teleporters in your city.
+ 6. Build an Upscale Restaurant.
+ 7. Research Secretive Living in the Living Research Center.
+ 8. Build 3 Villas.
+ 9. Increase the Glory of the Key to 100. You can see it in the happiness window.
+ 10. Gather 750 knowledge in a day.
+ 11. Build The Machine.
+     
 ## Winter World
 ---
 This is a scenario that is annually available in December across all platforms that have Final Earth 2 as an HTML game. Here, you start with nothing, kind of like A New Beginning except that your world is covered in slow and you have two or so landing pads, like one of the Free Play Scenarios, A blank canvas. There are several special buildings.
