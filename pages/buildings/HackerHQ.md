@@ -9,7 +9,7 @@ parent: Buildings
 
 ### Tasks
 
-1.Gather the Hackers: Make sure all 6 jobs are filled.
+1. Gather the Hackers: Make sure all 6 jobs are filled.
 2. Collect the Knowledge: Build 20 Labs.
 3. Spread the Knowledge: Build 3 Libraries.
 4. House the Smart: Build 5 Tinkerers' Houses.
