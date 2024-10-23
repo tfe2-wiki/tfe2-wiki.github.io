@@ -5,12 +5,6 @@ nav_order: 1
 
 ![Wiki banner](assets/wikibanner.png)
 
-We are currently in the process of moving all content from [the old wiki](https://tfe2.fandom.com), any help would be wonderful!
+This wiki, along with [the Fandom wiki](https://tfe2.fandom.com), are moving to [Miraheze](https://tfe2.miraheze.org) as it offers a better platform for creating wikis.
 
-Welcome to the The Final Earth 2 Wiki!
-
-NOTE: Really under development, please help out!
-
-[Join the official Discord!](https://discord.gg/r4H25JM)
-
-Hello! and welcome to The Final Earth 2 Wiki, the game made by [Florian van Strien!](https://florianvanstrien.nl/) we don't have much right now, but if you can help make or edit a page, that would be appreciated!
+If you have a moment, it would be appreciated if you could [join the official Discord](https://discord.gg/r4H25JM) and help us move content over.
