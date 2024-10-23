@@ -59,7 +59,7 @@ landed ships.
 
 ## City of the Key
 ---
-This is the last scenario. There will be all the production buildings up till experimentation lab (woodcutting center, stone mine, exploration center, machine parts factory, lab, tree plantation, rock teleporter, refined metal factory, computer chip factory, and experimentation lab) excluding woodcutting center and exploration center. There are 12 wooden houses, 2 mechanical houses (connected to machine parts factory), 2 pubs, 3 landing pads, 2 teleporters (enabled), workshop, computing research center, and the Secret Society of the Key on a svery small island.
+This is the last scenario. There will be all the production buildings up till experimentation lab (woodcutting center, stone mine, exploration center, machine parts factory, lab, tree plantation, rock teleporter, refined metal factory, computer chip factory, and experimentation lab) excluding woodcutting center and exploration center. There are 12 wooden houses, 2 mechanical houses (connected to machine parts factory), 2 pubs, 3 landing pads, 2 teleporters (enabled), workshop, computing research center, and the Secret Society of the Key on a very small island.
 
 ### Tasks in this scenario
 
@@ -67,7 +67,7 @@ This is the last scenario. There will be all the production buildings up till ex
  2. Produce 100 food, 100 stone and 50 knowledge in a day.
  3. Build 5 Sculpture Gardens.
  4. Gather 150 knowledge in a day.
- 5. Have at 5 Teleporters in your city.
+ 5. Have at least 5 Teleporters in your city.
  6. Build an Upscale Restaurant.
  7. Research Secretive Living in the Living Research Center.
  8. Build 3 Villas.
