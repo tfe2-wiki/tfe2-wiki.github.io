@@ -9,10 +9,10 @@ parent: Buildings
 
 The Secret Society of the Key is a society in-game that will ask you do various tasks to keep them happy. Their goal is to increase quality and happiness of house buildings. These tasks can also help boost happiness or production in your city. If there is a Pub nearby, it will gain the Key logo. If there is more than one, one will be chosen.
 
-Give us the Followers we Need: Make Sure all 8 Jobs are Filled.
-Improve our home: Research Secretive Living in Living Research Center.
-Increase Production: Produce 1000 Wood a Day.
-Make the City Green: Build 50 Botannical Gardens.
+1. Give us the Followers we Need: Make Sure all 8 Jobs are Filled.
+2. Improve our home: Research Secretive Living in Living Research Center.
+3. Increase Production: Produce 1000 Wood a Day.
+4. Make the City Green: Build 50 Botannical Gardens.
 
 ## Technical Info
 Entry in `buildinginfo.json`
