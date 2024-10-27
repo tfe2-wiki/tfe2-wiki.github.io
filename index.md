@@ -1,6 +1,7 @@
 ---
 title: Home
 nav_order: 1
+layout: minimal
 ---
 
 ![Wiki banner](assets/wikibanner.png)
